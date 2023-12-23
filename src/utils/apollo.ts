@@ -6,7 +6,7 @@ import { AUTH_TOKEN } from './constants';
 import { currentOrg } from '.';
 
 const httpLink = createHttpLink({
-    uri: 'https://morally-settling-tiger.ngrok-free.app/graphql',
+    uri: 'https://sjkt-water-server.vercel.app/graphql',
 });
 
 const authLink = setContext((_, { headers }) => {
