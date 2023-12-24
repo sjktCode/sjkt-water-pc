@@ -55,6 +55,7 @@ const Me = () => {
                             params: {
                                 name: values.name,
                                 desc: values.desc,
+                                password: values.password,
                                 avatar: values.avatar[0]?.url || '',
                             },
                         },
@@ -71,6 +72,7 @@ const Me = () => {
                     <Col>
                         <ProFormText name="tel" label="手机号" tooltip="不能修改" disabled />
                         <ProFormText name="name" label="昵称" placeholder="请输入昵称" />
+                        <ProFormText name="password" label="密码" placeholder="请输入登录密码" />
                         <ProFormTextArea name="desc" label="简介" placeholder="请输入简介信息" />
                     </Col>
                     <Col>

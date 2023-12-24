@@ -7,6 +7,7 @@ import { currentOrg } from '.';
 
 const httpLink = createHttpLink({
     uri: 'https://sjkt-water-server.vercel.app/graphql',
+    // uri: 'http://localhost:3000/graphql',
 });
 
 const authLink = setContext((_, { headers }) => {

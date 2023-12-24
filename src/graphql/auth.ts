@@ -18,3 +18,13 @@ export const LOGIN = gql`
         }
     }
 `;
+
+export const LOGINBYPASS = gql`
+    mutation loginByPassword($tel: String!, $password: String!) {
+        loginByPassword(tel: $tel, password: $password) {
+            code
+            message
+            data
+        }
+    }
+`;
