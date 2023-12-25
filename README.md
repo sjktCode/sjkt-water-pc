@@ -9,8 +9,8 @@ React18+TS+NestJS+GraphQL 全栈开发在线教育平台PC管理端
 **安装**
 
 ```bash
-git clone https://github.com/sjktCode/sjkt-water-server.git
-cd sjkt-water-server
+git clone https://github.com/sjktCode/sjkt-water-pc.git
+cd sjkt-water-pc
 
 pnpm install
 ```
